@@ -21,12 +21,6 @@ public class GasCar extends Car{
 	}
 
 	@Override
-	public void vehicleIteration() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
 	public void addVehicle() {
 		// TODO Auto-generated method stub
 		
@@ -34,12 +28,6 @@ public class GasCar extends Car{
 
 	@Override
 	public void removeVehicle() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void addVehicle(String manufacturer, String model, String dateOfCreation) {
 		// TODO Auto-generated method stub
 		
 	}

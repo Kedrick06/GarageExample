@@ -1,10 +1,16 @@
 package abstractionexample;
 
-public abstract class Car implements DrivingBehavior, Garage {
+public abstract class Car implements DrivingBehavior {
 	
+	private int id;
 	private String manufacturer;
 	private String model;
 	private String dateOfCreation;
+	
+	public Car(String manufacturer, String model, String dateOfCreation, int id) {
+		super();
+		
+	}
 	
 	public Car(String manufacturer, String model, String doc) {
 		this.manufacturer = manufacturer;

@@ -17,31 +17,22 @@ public class ElectricCar extends Car {
 
 	@Override
 	public void accelerating() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void vehicleIteration() {
-		// TODO Auto-generated method stub
+		System.out.println("Car is accelerating");
 		
 	}
 
 	@Override
 	public void addVehicle() {
-		// TODO Auto-generated method stub
+		System.out.println("Add electric car");
 		
 	}
 
 	@Override
 	public void removeVehicle() {
-		// TODO Auto-generated method stub
+		System.out.println("remove vehicle");
 		
 	}
 
-	@Override
-	public void addVehicle(String manufacturer, String model, String dateOfCreation) {
-		// TODO Auto-generated method stub
-		
-	}
+	
+
 }
